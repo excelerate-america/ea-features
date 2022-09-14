@@ -15,6 +15,9 @@ What does feature solve
 ## TERMS
 special vocabulary 
 
+## DEPENDENCIES
+Other projects that 
+
 ## REQUIREMENTS
 List requirements
 
@@ -25,8 +28,7 @@ List requirements
 - figma 
 - diagrams
 
-## DEPENDENCIES
-Other projects that 
+
 
 ## TASKS
 What needs to get done and will be tracked in Tasks 

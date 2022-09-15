@@ -1,7 +1,7 @@
 ---
 name: project-feature
 about: Use for issues that are features
-title: ''
+title: 'FEATURE: Insert More here'
 labels: ''
 assignees: ''
 
@@ -21,6 +21,9 @@ Other projects that
 ## REQUIREMENTS
 List requirements
 
+## QUESTIONS
+List any questions concerning requirements or objective
+
 ## RISKS
 - possible issues / scope creep
 
@@ -28,10 +31,5 @@ List requirements
 - figma 
 - diagrams
 
-
-
 ## TASKS
-What needs to get done and will be tracked in Tasks 
-
-GanttStart: YYYY-MM-DD
-GanttDue: YYYY-MM-DD
+What needs to get done and will be tracked in Tasks

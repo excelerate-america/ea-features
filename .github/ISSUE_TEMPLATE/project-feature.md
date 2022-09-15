@@ -2,7 +2,7 @@
 name: project-feature
 about: Use for issues that are features
 title: 'FEATURE: Insert More here'
-labels: ''
+labels: PROJECT
 assignees: ''
 
 ---

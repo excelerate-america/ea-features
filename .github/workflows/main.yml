@@ -1,0 +1,21 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Add Issue Labelled Project to Project
+
+# Controls when the workflow will run
+on:
+  issues:
+    types:
+      - opened
+jobs:
+  add-to-project:
+    name: Add Issue with Project to GitHub projects
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@v0.3.0
+        with:
+          # URL of the project to add issues to
+          project-url: https://github.com/orgs/excelerate-america/projects/22
+          github-token: ${{ secrets.ADD_2_PROJECT }}
+          # A comma-separated list of labels to use as a filter for issue to be added
+          labeled: PROJECT

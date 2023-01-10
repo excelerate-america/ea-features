@@ -18,6 +18,6 @@ jobs:
         with:
           # URL of the project to add issues to
           project-url: https://github.com/orgs/excelerate-america/projects/24
-          github-token: ${{ secrets.ADD_2_PROJECT }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           # A comma-separated list of labels to use as a filter for issue to be added
           labeled: TASK
